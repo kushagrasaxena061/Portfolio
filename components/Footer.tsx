@@ -4,12 +4,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 const Footer = () => {
-  const router = useRouter();
-
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
@@ -28,7 +25,10 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="kushagrasaxena061@gmail.com">
+        <a
+          href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+          target="_blank"
+        >
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
