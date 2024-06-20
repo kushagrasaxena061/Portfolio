@@ -26,7 +26,7 @@ const Footer = () => {
           achieve your goals.
         </p>
         <a
-          href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+          href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQLxvffZGDjrwvcrPBjHJxBGgwxXztskTPrBxrXsbCKHhwWKnkjqsDqhSbSCJphQjsDHhM"
           target="_blank"
         >
           <MagicButton
